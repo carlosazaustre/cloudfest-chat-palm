@@ -1,9 +1,11 @@
-import { ChatWindow } from "./components/Chat";
+import { ChatWindow } from "./components/ChatWindow";
+import { Aside } from "./components/Aside";
 
 function App() {
 	return (
-		<div>
-			<ChatWindow />
+		<div className="flex h-screen w-full">
+			<Aside />
+			<ChatWindow />;
 		</div>
 	);
 }
